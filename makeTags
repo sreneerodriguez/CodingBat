@@ -1,0 +1,4 @@
+public String makeTags(String tag, String word) {
+  String withTag = "<" + tag + ">" + word + "</" + tag + ">";
+  return withTag;
+}
